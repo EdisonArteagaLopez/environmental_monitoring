@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">EnviroMonitor</string>
+
+    <!-- Notification channels -->
+    <string name="channel_service_name">Conexión TTN</string>
+    <string name="channel_service_description">Notificación persistente de la conexión MQTT con The Things Network</string>
+    <string name="channel_alarm_name">Alarmas ambientales</string>
+    <string name="channel_alarm_description">Notificaciones cuando temperatura o humedad salen de rango</string>
+
+    <!-- Service -->
+    <string name="service_notification_title">EnviroMonitor activo</string>
+    <string name="service_notification_text_connected">Conectado a TTN — recibiendo datos</string>
+    <string name="service_notification_text_disconnected">Desconectado de TTN</string>
+    <string name="service_notification_text_connecting">Conectando a TTN…</string>
+
+    <!-- Alarms -->
+    <string name="alarm_temp_high">Temperatura alta en %1$s: %2$.1f°C</string>
+    <string name="alarm_temp_low">Temperatura baja en %1$s: %2$.1f°C</string>
+    <string name="alarm_hum_high">Humedad alta en %1$s: %2$.1f%%</string>
+    <string name="alarm_hum_low">Humedad baja en %1$s: %2$.1f%%</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dispositivos</string>
+    <string name="nav_alarms">Alarmas</string>
+    <string name="nav_settings">Ajustes</string>
+</resources>
